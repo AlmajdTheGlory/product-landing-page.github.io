@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    position: absolute;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.header{
+    height: 100%;
+    background: rgb(168,5,240);
+    background: linear-gradient(203deg, rgba(168,5,240,1) 5%, rgba(54,11,126,1) 58%); 
+    margin: 0px;
+}
+.product{
+    display: grid;
+    align-items: center;
+
+}
+.description{
+    display: grid;
+    align-items: center;
+    padding: 7%;
+    color: #e6e6e6;
+}
+h1{
+    font-weight: 700;
+}
+.product-image-container{
+    background: url(./Assets/Asset\ 1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 75%;
+    margin-left: auto;
+    
+}
+
+@media(max-width: 768px){
+    .product{
+        height: 60%;
+    }
+    .product-image-container{
+        margin-right: auto;
+        height: 100%;
+        width: 100%;
+    }
+    .description{
+        margin-bottom: auto;
+        padding-top: 0px;
+    }
+}
+
+
+/*///////////////  wave-1  ///////////////*/
+.custom-shape-divider-top-1654789454 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1654789454 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 45px;
+}
+
+.custom-shape-divider-top-1654789454 .shape-fill {
+    fill: #360b7e;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1654789454 svg {
+        width: calc(100% + 1.3px);
+        height: 40px;
+    }
+}
+/*//////////////////////////////////////*/
+/*///////////////  wave-2  ///////////////*/
+
+/*//////////////////////////////////////*/
+
+.product-details{
+    margin: 0px;
+    height: 100%;
+}
+.man-container{
+    display: grid;
+}
+
+.man{
+    background: url(./Assets/man.jpg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 80%;
+    margin-top: auto;
+
+}
+.text-column{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-delux-link{
+    color: #DDDDDD;
+    margin-left: 0.8rem;
+    text-align: center;
+}
+.why-delux-link:hover{
+    color: #C6C5B9;
+    text-decoration: none;
+}
+#the-answer{
+    padding-right: 15%;
+}
+
+@media(max-width: 768px){
+
+}
+
